@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+    <!--Dojonary, Buscar y logear-->
+    <div class="container">
+    <div class="nav">
+        <h1 class="nav-title">Dojonary</h1>
+        <div class="search">
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Buscar">
+            <button type="submit">Buscar</button>
+        </form>
+        </div>
+        <button class="btn entrar" onclick="entrar(this)">Entrar</button>
+    </div>
+    </div>
+                <!--Fin-->
+    
+    <!--Encabezado 1-->
+    <div class="container-principal">
+        <div class="lado-izquierdo">    
+    <div class="container2">
+        <div class="encabezado">
+            <h2 class="Ninja"> Ninja</h2>
+            <p class="parrafo-1"> noun</p>
+            <p class="parrafo-2">Plural: ninjas</p>
+            <button class="btn like1" onclick="message()">13 likes</button>
+        <div class="definition">
+            <p class="parrafo-4"> A practitioner skilled in the<br>
+                <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+        </div>
+        </div>
+    </div>
+            <!--FIN-->
+
+    <!--Encabezado2-->
+    <div class="container3">
+        <div class="encabezado2">
+            <h3 class="Ninja2"> Ninja</h3>
+            <p class="parrafo-5"> noun</p>
+            <p class="parrafo-6">Plural: ninjas</p>
+            <button class="btn like2" onclick="message()">37 likes</button>
+        <div class="definition2">
+            <p class="parrafo-8"> A <a href="#">programmer</a> who breaks<br>
+                down problems with <a href="#">zen</a> like focus</p>
+        </div>
+        </div>
+    </div>
+            <!--Fin-->
+    <!--Encabezado3-->
+    <div class="lado-derecho">
+        <div class="container4">
+            <h4 class="defined">Dojonary is defined by You</h4>
+            <button class="btn add" onclick="hide(this)">Add Definition</button>
+        </div>
+    </div>
+</div>
+    </div>
+    <script src="./functions.js"></script>
+</body>
+</html>
